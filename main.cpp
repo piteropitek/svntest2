@@ -60,8 +60,8 @@ int main(){
     search_tree(xmltree, "Person");
     read_xml("xml2.xml", xmltree);
 	search_tree(xmltree, "Person");
-    write_xml("file", xmltree);
-	write_xml("file2", xml2tree);
+    //write_xml("file", xmltree);
+	//write_xml("file2", xml2tree);
 
     return 0;
 }
